@@ -116,10 +116,10 @@ background-color: #2e2f42;
 
 .title-team {
             font-weight: 700;
-                font-size: 36px;
-                line-height: 1.11;
-                letter-spacing: 0.02em;
-                color: #2e2f42;
+            font-size: 36px;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
 }
 
 .team-name {
@@ -171,6 +171,9 @@ background-color: #2e2f42;
 /* #endregion section3 */
 
 /* #region footer */
+.section-footer {
+    background-color: #2e2f42;
+}
 .logo {
         font-weight: 700;
         font-size: 18px;
@@ -185,7 +188,7 @@ background-color: #2e2f42;
 }
 
 .text-footer {
-
+        
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
