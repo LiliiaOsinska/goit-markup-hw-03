@@ -11,8 +11,8 @@ button {cursor: pointer;}
 
 .nav {}
 
-.logo {
-    
+.logo-header {
+        font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -20,7 +20,6 @@ button {cursor: pointer;}
         text-transform: uppercase;
         color: #4d5ae5;
 }
-
 .logo-span {
     color: #2e2f42;
 }
@@ -41,7 +40,9 @@ button {cursor: pointer;}
 {color: #404bbf;}
 .menu-link:active {
         color: #404bbf;
-    }
+}
+.address-heder-link :hover,:focus {color: #404bbf;}
+
 .menu-email {
         font-weight: 400;
         font-size: 16px;
@@ -178,10 +179,9 @@ background-color: #2e2f42;
 /* #endregion section3 */
 
 /* #region footer */
-.section-footer {
-    background-color: #2e2f42;
-}
-.logo {
+.footer-section {background-color: #2e2f42;}
+.logo-footer {
+        font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -191,15 +191,14 @@ background-color: #2e2f42;
 }
 
 .footer-span {
-    color: #f4f4fd;
+color: #f4f4fd;
 }
 
 .text-footer {
-        
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
 }
 /* #endregion footer */
