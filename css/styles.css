@@ -106,6 +106,7 @@ img {
         background-color: #2e2f42;
         width: 1440px;
         height: 600px;
+        padding: 188px 0 188px;
 }
 .hero-title {
         display: block;
@@ -118,6 +119,8 @@ img {
         padding-top: 188px;
         margin-bottom: 48px;
         max-width: 496px;
+        text-align: center;
+
 
 
 }
@@ -128,6 +131,7 @@ img {
         letter-spacing: 0.04em;
         color: #fff;
         background-color: #4d5ae5;
+        border: none;
 
 }
 
@@ -137,6 +141,7 @@ img {
         min-width: 169px;
         height: 56px;
         border-radius: 4px;
+        margin: 0 auto;
 
 }
 .hero-button:hover,
@@ -149,7 +154,19 @@ img {
 .main-section {
         padding: 120px 0 120px;
 }
-.main-title {}
+.main-title {
+        position: absolute;
+                width: 1px;
+                height: 1px;
+                margin: -1px;
+                border: 0;
+                padding: 0;
+        
+                white-space: nowrap;
+                clip-path: inset(100%);
+                clip: rect(0 0 0 0);
+                overflow: hidden;
+}
 
 .main-item {
         display: flex;
@@ -179,6 +196,7 @@ img {
 
 /* #region section2 */
 .section-team {background-color: #f4f4fd;
+        padding: 120px 0 120px;
 }
 .title-team {
         font-weight: 700;
@@ -188,6 +206,7 @@ img {
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
+        margin-bottom: 72px;
 }
 
 .item-team{
@@ -195,22 +214,31 @@ img {
         gap: 24px;
 
 }
-.img-team {background-color: #FFFFFF}
+.img-team {background-color: #FFFFFF;
+        border-radius: 0 0 4px 4px;
+}
+.div-team {
+        padding: 32px 0 32px;
+}
 .team-name {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        text-align: center;
+        margin-bottom: 8px;
 }
 .team-position {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;}
+        color: #434455;
+        text-align: center;
+}
 
-/* #endregion section2 */
+        /* #endregion section2 */
 
 /* #region section3 */
 .section-portfolio {
@@ -228,8 +256,9 @@ img {
 }
 .item-portfolio {
         display: flex;
-        gap: 24px;
-
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap:48px;
         }
 .subtitle-portfolio {
         font-weight: 500;
@@ -250,7 +279,10 @@ img {
 /* #endregion section3 */
 
 /* #region footer */
-.footer-section {background-color: #2e2f42;}
+.footer-section {
+        background-color: #2e2f42;
+        padding: 100px 0 100px;
+}
 .logo-footer {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -259,6 +291,8 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 .footer-span {color: #f4f4fd;
 }
@@ -268,5 +302,6 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
 }
 /* #endregion footer */
