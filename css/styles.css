@@ -11,6 +11,12 @@ ul, ol {
         margin: 0;
         padding: 0;
 }
+img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+
+}
 .container {
         max-width: 1158px;
         padding: 0 15px;
@@ -102,6 +108,7 @@ ul, ol {
         height: 600px;
 }
 .hero-title {
+        display: block;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -109,7 +116,9 @@ ul, ol {
         text-align: center;
         color: #fff;
         padding-top: 188px;
-        padding-bottom: 48px;
+        margin-bottom: 48px;
+        max-width: 496px;
+
 
 }
 .hero-button {
@@ -121,23 +130,41 @@ ul, ol {
         background-color: #4d5ae5;
 
 }
-.hero-button {font-family: "Roboto",sans-serif;}
+
+.hero-button {
+        font-family: "Roboto",sans-serif;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border-radius: 4px;
+
+}
 .hero-button:hover,
 .hero-button:focus
 {background-color: #404bbf;}
+
 /* #endregion section hero */
 
 /* #region section1 */
+.main-section {
+        padding: 120px 0 120px;
+}
 .main-title {}
 
-.main-item {display: flex;}
-
+.main-item {
+        display: flex;
+        gap: 24px;
+}
+.menu-main {
+        flex-basis: calc((100% - 3 * 24px) / 4)
+}
 .main-subtitle {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px
 }
 .main-text {
 
@@ -162,6 +189,12 @@ ul, ol {
         text-transform: capitalize;
         color: #2e2f42;
 }
+
+.item-team{
+        display: flex;
+        gap: 24px;
+
+}
 .img-team {background-color: #FFFFFF}
 .team-name {
         font-weight: 500;
@@ -181,7 +214,8 @@ ul, ol {
 
 /* #region section3 */
 .section-portfolio {
-}
+        padding: 120px 0 120px;}
+        
 .title-portfolio {
         font-weight: 700;
         font-size: 36px;
@@ -190,13 +224,20 @@ ul, ol {
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
+        margin-bottom: 72px;
 }
+.item-portfolio {
+        display: flex;
+        gap: 24px;
+
+        }
 .subtitle-portfolio {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+
 }
 .desc-portfolio {
         font-weight: 400;
