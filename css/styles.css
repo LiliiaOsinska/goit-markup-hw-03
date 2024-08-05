@@ -104,9 +104,8 @@ img {
 /* #region section hero */
 .hero {
         background-color: #2e2f42;
-        width: 1440px;
+        padding: 188px 0 188px ;
         height: 600px;
-        padding: 188px 0 188px;
 }
 .hero-title {
         display: block;
@@ -116,10 +115,11 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        padding-top: 188px;
         margin-bottom: 48px;
         max-width: 496px;
-        text-align: center;
+        margin-right: auto;
+
+
 
 
 
@@ -161,7 +161,6 @@ img {
                 margin: -1px;
                 border: 0;
                 padding: 0;
-        
                 white-space: nowrap;
                 clip-path: inset(100%);
                 clip: rect(0 0 0 0);
@@ -195,7 +194,8 @@ img {
 /* #endregion section1 */
 
 /* #region section2 */
-.section-team {background-color: #f4f4fd;
+.section-team {
+        background-color: #f4f4fd;
         padding: 120px 0 120px;
 }
 .title-team {
@@ -260,14 +260,24 @@ img {
         column-gap: 24px;
         row-gap:48px;
         }
-.subtitle-portfolio {
+.div-portfolio {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+
+}
+
+        .subtitle-portfolio {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
+
 
 }
+
 .desc-portfolio {
         font-weight: 400;
         font-size: 16px;
